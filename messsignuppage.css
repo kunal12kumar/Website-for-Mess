@@ -1,0 +1,90 @@
+/* Styling sign up page  */
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+/* mainframe class */
+.mainframe{
+    /* width: 100vw;
+    height: 100vh; */
+    background-image: linear-gradient(to left,#FFB6C1,#9b2dca);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupframe{
+    width: 40%;
+    margin: 50px;
+    border: 2px;
+    background-image: linear-gradient(to right,#FFB6C1,#9b2dca);
+    border-radius: 20px;
+    box-shadow: #cf0ca5 10px 10px;
+}
+
+
+/* styling for class logincontent */
+.logincontent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+/* styling for class inputcontent  */
+.inputcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+}
+
+
+/* styling for class singupcontent */
+.signupcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+/* Now for login logo */
+#logo{
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+/* id logintext */
+#Signuptext{
+    font-size: large;
+    font-style: italic;
+    font-weight: 100;
+}
+
+/*styling for inputinfo  */
+
+.inputinfo{
+    width: 250px;
+    height: 45px;
+    border: 2px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+/* styling for id submit */
+
+#submit{
+    margin-top: 18px;
+    width: 180px;
+}
